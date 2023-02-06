@@ -144,16 +144,10 @@
 //   }
 // }
 
-// var bookPrice = [120, 300, 250, 180, 150, 110];
-// for (var i = 0; i < bookPrice.length; i++) {
-//   if (bookPrice[i] >= 200) {
-//     continue;
-//   }
-//   console.log(bookPrice[i]);
-// }
-
-
-// var x = 13;
-// for(var i = 0; i <= 10; i++){
-//   console.log(x * i);
-// }
+var bookPrice = [120, 300, 250, 180, 150];
+for (var i = 0; i < bookPrice.length; i++) {
+  if (bookPrice[i] >= 200) {
+    continue;
+  }
+  console.log(bookPrice[i]);
+}
